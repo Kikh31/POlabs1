@@ -9,5 +9,5 @@ int main() {
     cout << cminus(2, 1) << '\n';
     cout << cmultiply(2, 2) << '\n';
     cout << cdivide(4, 2) << '\n';
-    cout << "END";
+    cout << "END" << '\n';
 }
