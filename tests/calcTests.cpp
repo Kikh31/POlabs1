@@ -9,7 +9,7 @@ TEST_CASE("plus test") {
     SUBCASE("--") CHECK(cplus(-1, -1) == -2);
     SUBCASE("+-") CHECK(cplus(1, -1) == 0);
     SUBCASE("-+") CHECK(cplus(-1, 1) == 0);
-    //SUBCASE("broke") CHECK(brokePlus(1, 1) == 2);
+    SUBCASE("broke") CHECK(brokePlus(1, 1) == 2);
 }
 
 TEST_CASE("minus test") {
